@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}"> 
+    <style>
+      /* CSS style to change the font size */
+      .custom-text {
+          font-size: 40px; /* You can use other units like em, rem, %, etc. */
+      }
+      h1{
+        font-size: 54px; /* Adjust the value as needed */
+      }
+      h2{
+        font-size: 30px; /* Adjust the value as needed */
+      }
+  </style>
+</head>
+<body>
+  <br>
+  <h1 style="color:rgb(230, 234, 237);">Catalogo libri ART GALLERY (Gabicce Mare)</h1>
+  <br>
+    <form action="greet" method ="post">
+      <p class="custom-text"> Inserisci il nome o titolo del libro </p>
+      <input type="text" name="name_input">
+      <br>
+      <input type="submit" value="CLICCA PER VEDERE I RISULTATI" id="greet">
+    </form>
+    <pre><h2>{{ file_content }}</h2></pre>
+</body>
+</html>

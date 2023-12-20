@@ -1,0 +1,26 @@
+Numero di libri trovati =  5  (Autore - Titolo - Numero di copie disponibili) 
+
+ELIZABETH GEORGE
+E LIBERACI DAL PADRE
+3
+ 
+ÁNGELES MASTRETTA
+Donne dagli occhi grandi
+3
+ 
+GEMMA TOWNLEY
+Un incidente chiamato amore
+3
+ 
+CAROLYN JESS-COOKE
+I DIARI DELL'ANGELO CUSTODE
+3
+ 
+ASSIA DJEBAR
+Nel cuore della notte algerina
+3
+ 
+
+
+Numero di libri con titolo unico nel database = 41 
+
